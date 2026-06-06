@@ -13,3 +13,6 @@ allows to happen. In this case, we are recommended to use `PreparedStatement`;
 - The [PreparedStatementExample.java](PreparedStatementExample.java) demonstrates how to use `PreparedStatement` 
 queries. We can use parameters with `PreparedStatement` as the code shows thus such statements are safe from SQL
 injections that we saw with `Statement` queries.
+- When it comes to `CallableStatement`, it treats the database as an API to call its functions.
+Database vendors have wildly different syntax for running stored procedures. That's why JDBC offers a unified syntax
+to call the database functions.
