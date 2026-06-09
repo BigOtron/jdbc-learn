@@ -16,3 +16,5 @@ injections that we saw with `Statement` queries.
 - When it comes to `CallableStatement`, it treats the database as an API to call its functions.
 Database vendors have wildly different syntax for running stored procedures. That's why JDBC offers a unified syntax
 to call the database functions.
+- The [CallableStatementExample.java](CallableStatementExample.java) demonstrates how to use `CallableStatement`
+including the unified JDBC syntax to call functions of the database.
